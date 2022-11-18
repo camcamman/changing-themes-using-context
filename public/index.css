@@ -1,0 +1,59 @@
+/* head */
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.lightHead{
+    background-color: blueviolet;
+}
+.darkHead{
+    background-color: gray;
+}
+
+.top{
+    flex-direction: row;
+}
+.right{
+    flex-direction: column;
+    text-align: start;
+}
+.left{
+    flex-direction: column;
+    text-align: end;
+}
+
+/* main */
+.main{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-size: 30px;
+}
+.lightMain{
+    background-color: blue;
+}
+.darkMain{
+    background-color: gray;
+}
+
+.button{
+    position: relative;
+    top: 200px;
+    margin-left: 40%;
+}
+
+/* footer */
+.foot{
+    position: relative;
+    top: 500px;
+    margin: auto;
+    text-align: center;
+}
+.lightFoot{
+    background-color: red;
+}
+.darkFoot{
+    background-color: gray;
+}
